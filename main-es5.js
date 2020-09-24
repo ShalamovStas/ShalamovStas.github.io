@@ -1570,6 +1570,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
     var MENUITEMS = [{
+      state: 'destination',
+      name: 'Destination',
+      type: 'link',
+      icon: 'adb'
+    }, {
       state: 'custom-questions',
       name: 'My Custom',
       type: 'link',
