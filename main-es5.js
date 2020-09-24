@@ -1035,7 +1035,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Stas Shalamov ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " User ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "i", 5);
 
@@ -1569,14 +1569,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-    var MENUITEMS = [{
-      state: 'destination',
-      name: 'Destination',
-      type: 'link',
-      icon: 'adb'
-    }, {
+    var MENUITEMS = [// { state: 'destination', name: 'Destination', type: 'link', icon: 'adb' },
+    {
       state: 'custom-questions',
-      name: 'My Custom',
+      name: 'Custom questions builder',
       type: 'link',
       icon: 'adb'
     }, {
@@ -1584,86 +1580,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       name: 'Dashboard',
       type: 'link',
       icon: 'av_timer'
-    }, {
-      state: 'button',
-      type: 'link',
-      name: 'Buttons',
-      icon: 'crop_7_5'
-    }, {
-      state: 'grid',
-      type: 'link',
-      name: 'Grid List',
-      icon: 'view_comfy'
-    }, {
-      state: 'lists',
-      type: 'link',
-      name: 'Lists',
-      icon: 'view_list'
-    }, {
-      state: 'menu',
-      type: 'link',
-      name: 'Menu',
-      icon: 'view_headline'
-    }, {
-      state: 'tabs',
-      type: 'link',
-      name: 'Tabs',
-      icon: 'tab'
-    }, {
-      state: 'stepper',
-      type: 'link',
-      name: 'Stepper',
-      icon: 'web'
-    }, {
-      state: 'expansion',
-      type: 'link',
-      name: 'Expansion Panel',
-      icon: 'vertical_align_center'
-    }, {
-      state: 'chips',
-      type: 'link',
-      name: 'Chips',
-      icon: 'vignette'
-    }, {
-      state: 'toolbar',
-      type: 'link',
-      name: 'Toolbar',
-      icon: 'voicemail'
-    }, {
-      state: 'progress-snipper',
-      type: 'link',
-      name: 'Progress snipper',
-      icon: 'border_horizontal'
-    }, {
-      state: 'progress',
-      type: 'link',
-      name: 'Progress Bar',
-      icon: 'blur_circular'
-    }, {
-      state: 'dialog',
-      type: 'link',
-      name: 'Dialog',
-      icon: 'assignment_turned_in'
-    }, {
-      state: 'tooltip',
-      type: 'link',
-      name: 'Tooltip',
-      icon: 'assistant'
-    }, {
-      state: 'snackbar',
-      type: 'link',
-      name: 'Snackbar',
-      icon: 'adb'
-    }, {
-      state: 'slider',
-      type: 'link',
-      name: 'Slider',
-      icon: 'developer_mode'
-    }, {
-      state: 'slide-toggle',
-      type: 'link',
-      name: 'Slide Toggle',
-      icon: 'all_inclusive'
     }];
 
     var MenuItems = /*#__PURE__*/function () {
